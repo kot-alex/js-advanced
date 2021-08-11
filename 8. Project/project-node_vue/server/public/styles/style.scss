@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato/Lato-Semibold.woff2") format("woff2"),
+        url("../fonts/Lato/Lato-Semibold.woff") format("woff"),
+        url("../fonts/Lato/Lato-Semibold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@import "main";
+@import "variables";
+@import "mixins";
+
+@import "blocks/header";
+@import "blocks/breadcrumb";
+@import "blocks/benefits";
+@import "blocks/feedback";
+@import "blocks/footer";
+
+@import "pages/index";
+@import "pages/catalog";
+@import "pages/product";
+@import "pages/cart";
+@import "pages/registration";
